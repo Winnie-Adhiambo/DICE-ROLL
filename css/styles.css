@@ -1,0 +1,25 @@
+
+body{
+  background-color: moccasin;
+  color: slateblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  align-items:center;
+}
+h2{
+  text-align: center;
+  background-color: paleturquoise;
+  text-align: center;
+}
+#box{
+  background-color: cadetblue;
+  margin: auto;
+  padding-left: 40px;
+  width: 400;
+  height: 400;
+}
+
+roll2 = []
+roll2.append(rolls)
+result = sum(roll2)

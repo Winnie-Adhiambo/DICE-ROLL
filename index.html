@@ -4,47 +4,77 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/script.js"></script>
+
     <title>Pig Dice Game</title>
   </head>
   <body>
 <div class="Container">
+  <div id="box">
+ 
+
   <h2>Pig Dice Game</h2>
   <div class="row">
     <div class="col-md-4">
       <h3>Player One Name</h3>
-      <form id="new-team">
-        <div class="Game-team">
+      <form id="new-player-one">
+        <div id="new-player-one">
           <label for="new-first-team"></label>
           <input type="text" class="game-control" id="new-first-team">
-          <h3>Player One Score</h3>
-          <span id="player-0-score" class="player-score">0</span>
-          <h3>Total Score</h3>
-          <span id="player-0-Total" class="total-score">0</span>
-
+          <h3>Player One</h3>
+          <span id="player-0-score" class="player-score"></span>
+          <h3>Current Score</h3>
+          <span id="playerone" class="total-score">0</span>
+           <h3>Score</h3>
+          <input type="button" value="submit" id="roll">
+        </form>
         </div>
+        <ul id="list" >
 
-      </form>
+        </ul>
     </div>
+
+
+          <form id="teams-score">
+
+          <div class="col-md-4">
+            <h3>New Game<span id="new-game-btn" class="new-game"></h3>
+                 <br> <br>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGVj6gIVIvkUUeH8FSW5Vk6dLqmiKb7ilulTgjrMkjQ193uYkhxA" alt="">
+             <h3>Roll Dice<span id="roll-dice-btn" class="roll-btn"></span></h3>
+                <br> <br>
+              <h3>Hold Score<span id="hold-score-btn" class="hold-btn"></span></h3>
+             </div>
+             <div class="input">
+
+           </form>
+
     <div class="col-md-4">
       <h3>Player Two Name</h3>
-      <form id="new-team" >
-        <div class="Game-team">
+      <form id="new-player-two" >
+        <div id="new-player-two">
           <label for="new-second-team"></label>
           <input type="text" class="game-control" id="new-second-team">
-          <h3>Player Two Score</h3>
-          <span id="player-0-score" class="player-score">0</span>
-          <h3>Total Score</h3>
-          <span id="player-0-Total" class="total-score">0</span>
+          <h3>Player Two </h3>
+          <span id="player-0-score" class="player-score"></span>
+          <h3>Current Score</h3>
+          <span id="playertwo" class="total-score">0</span>
+          <div class="input">
+            <h3>Score</h3>
+           <!-- /*<input type="number" id="Total-Score" value="Total Score">/*  -->
+           <input type="button" value="submit" id="roll2">
 
+          </div>
 
         </div>
-
+    </div>
       </form>
 
-    </div>
-  </div>
+
+   </div>
+ </div>
 </div>
+<script src="Js/jquery-3.3.1.js"></script>
+<script src="Js/script.js"></script>
+
   </body>
 </html>
