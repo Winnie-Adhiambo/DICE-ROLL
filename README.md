@@ -28,10 +28,16 @@
 
 * To get intouch with me if you have something to add or change get me by going to Facebook page Winnie Adhiambo or my website
 
+#### link to live website
+link to live website [click](https://winnie-adhiambo.github.io/DICE-ROLL/)
 
-
-
-
-
+#### How Program Works
+|  Inputs                            |  Outputs                  |
+|------------------------------------|---------------------------|
+|  0 rolls                           |  0 points                 |
+|  1 roll                            |  1 point                  |
+|  5 rolls                           |  5 points                 |
+|  100 rolls                         |  100points                |
+|                                    |                           |
 
 
